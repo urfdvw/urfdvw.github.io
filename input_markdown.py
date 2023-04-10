@@ -1,3 +1,9 @@
+"""
+replace place holder 
+[<!-- input -->](./path/to/a/markdown/file)
+with actual file content
+"""
+
 import os
 import shutil
 import re
@@ -11,7 +17,20 @@ def remove_contents(folder):
             shutil.rmtree(item_path)
 
 def copy_directory(src, dest):
-    shutil.copytree(src, dest)
+    try:
+        shutil.copytree(src, dest, dirs_exist_ok=True)
+    except TypeError:
+        # For Python versions < 3.8, fall back to manual directory traversal and copying
+        if not os.path.exists(dest):
+            os.makedirs(dest)
+        for item in os.listdir(src):
+            src_item = os.path.join(src, item)
+            dest_item = os.path.join(dest, item)
+            if os.path.isdir(src_item):
+                copy_directory(src_item, dest_item)
+            else:
+                shutil.copy2(src_item, dest_item)
+
 
 def replace_placeholders(folder):
     for root, dirs, files in os.walk(folder):

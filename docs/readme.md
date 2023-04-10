@@ -1,3 +1,5 @@
+This is readme in the root
+
 - blogs
   - [today](blogs/today.md)
   - [readme](blogs/readme.md)

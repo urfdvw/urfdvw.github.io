@@ -29,10 +29,10 @@ def generate_md_tree(md_files, level=0):
     return md_tree
 
 def main():
-    md_files = find_markdown_files('.')
+    md_files = find_markdown_files('./src')
     md_tree = generate_md_tree(md_files)
 
-    with open('directory_tree.md', 'w') as f:
+    with open('./src/directory_tree.md', 'w') as f:
         f.write(md_tree)
 
 if __name__ == '__main__':
