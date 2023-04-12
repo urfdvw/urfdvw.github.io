@@ -9,4 +9,3 @@ Software Engineer and Former STEAM Teacher. Microcontroller hobbyist.
 - twitter: [@River___Wang](https://twitter.com/River___Wang)
 
 ## Content of this repo
-[<!-- input -->](./directory_tree.mdi)
