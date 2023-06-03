@@ -25,7 +25,7 @@ function App() {
         avatar={
           <Avatar
             alt="Email"
-            src="./src/images/email.png"
+            src="/src/images/email.png"
             sx={{ width: 20, height: 20 }}
             variant="rounded"
           />
@@ -38,7 +38,7 @@ function App() {
         avatar={
           <Avatar
             alt="Github"
-            src="./src/images/github.png"
+            src="/src/images/github.png"
             sx={{ width: 20, height: 20 }}
             variant="rounded"
           />
@@ -52,7 +52,7 @@ function App() {
         avatar={
           <Avatar
             alt="Mastodon"
-            src="./src/images/mastodon.png"
+            src="/src/images/mastodon.png"
             sx={{ width: 20, height: 20 }}
             variant="rounded"
           />
@@ -66,7 +66,7 @@ function App() {
         avatar={
           <Avatar
             alt="Youtube"
-            src="./src/images/youtube.png"
+            src="/src/images/youtube.png"
             sx={{ width: 20, height: 20 }}
             variant="rounded"
           />
@@ -80,7 +80,7 @@ function App() {
         avatar={
           <Avatar
             alt="Twitter"
-            src="./src/images/twitter.png"
+            src="/src/images/twitter.png"
             sx={{ width: 20, height: 20 }}
             variant="rounded"
           />
