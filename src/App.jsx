@@ -25,7 +25,7 @@ function App() {
         avatar={
           <Avatar
             alt="Email"
-            src="/src/images/email.png"
+            src="https://github.com/urfdvw/urfdvw.github.io/blob/main/src/images/email.png?raw=true"
             sx={{ width: 20, height: 20 }}
             variant="rounded"
           />
@@ -38,7 +38,7 @@ function App() {
         avatar={
           <Avatar
             alt="Github"
-            src="/src/images/github.png"
+            src="https://github.com/urfdvw/urfdvw.github.io/blob/main/src/images/github.png?raw=true"
             sx={{ width: 20, height: 20 }}
             variant="rounded"
           />
@@ -52,7 +52,7 @@ function App() {
         avatar={
           <Avatar
             alt="Mastodon"
-            src="/src/images/mastodon.png"
+            src="https://github.com/urfdvw/urfdvw.github.io/blob/main/src/images/mastodon.png?raw=true"
             sx={{ width: 20, height: 20 }}
             variant="rounded"
           />
@@ -66,7 +66,7 @@ function App() {
         avatar={
           <Avatar
             alt="Youtube"
-            src="/src/images/youtube.png"
+            src="https://github.com/urfdvw/urfdvw.github.io/blob/main/src/images/youtube.png?raw=true"
             sx={{ width: 20, height: 20 }}
             variant="rounded"
           />
@@ -80,7 +80,7 @@ function App() {
         avatar={
           <Avatar
             alt="Twitter"
-            src="/src/images/twitter.png"
+            src="https://github.com/urfdvw/urfdvw.github.io/blob/main/src/images/twitter.png?raw=true"
             sx={{ width: 20, height: 20 }}
             variant="rounded"
           />
