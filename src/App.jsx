@@ -30,7 +30,7 @@ function App() {
             variant="rounded"
           />
         }
-        title="urfdvw@gmail.com"
+        title="Email: urfdvw@gmail.com"
       />
       <CardHeader
         avatar={
@@ -41,7 +41,7 @@ function App() {
             variant="rounded"
           />
         }
-        title="urfdvw"
+        title="Github: urfdvw"
         onClick={() => window.open("https://github.com/urfdvw", "_blank")}
       />
       <CardHeader
@@ -53,7 +53,7 @@ function App() {
             variant="rounded"
           />
         }
-        title="@Riverwang@fosstodon.org"
+        title="Mastodon: @Riverwang@fosstodon.org"
         onClick={() => window.open("https://fosstodon.org/@Riverwang", "_blank")}
       />
       <CardHeader
@@ -65,7 +65,7 @@ function App() {
             variant="rounded"
           />
         }
-        title="@Riverwang"
+        title="Youtube: @Riverwang"
         onClick={() => window.open("https://www.youtube.com/channel/UCeunCRTBkjHWynMl4I4le_A", "_blank")}
       />
       <CardHeader
@@ -77,7 +77,7 @@ function App() {
             variant="rounded"
           />
         }
-        title="@River___Wang"
+        title="Twitter: @River___Wang"
         onClick={() => window.open("https://twitter.com/River___Wang", "_blank")}
       />
       <br />
