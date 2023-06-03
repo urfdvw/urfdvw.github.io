@@ -30,7 +30,9 @@ function App() {
             variant="rounded"
           />
         }
-        title="Email: urfdvw@gmail.com"
+        title={<Typography variant="h6" gutterBottom>
+          Email: urfdvw@gmail.com
+        </Typography>}
       />
       <CardHeader
         avatar={
@@ -41,7 +43,9 @@ function App() {
             variant="rounded"
           />
         }
-        title="Github: urfdvw"
+        title={<Typography variant="h6" gutterBottom>
+          Github: urfdvw
+        </Typography>}
         onClick={() => window.open("https://github.com/urfdvw", "_blank")}
       />
       <CardHeader
@@ -53,7 +57,9 @@ function App() {
             variant="rounded"
           />
         }
-        title="Mastodon: @Riverwang@fosstodon.org"
+        title={<Typography variant="h6" gutterBottom>
+          Mastodon: @Riverwang@fosstodon.org
+        </Typography>}
         onClick={() => window.open("https://fosstodon.org/@Riverwang", "_blank")}
       />
       <CardHeader
@@ -65,7 +71,9 @@ function App() {
             variant="rounded"
           />
         }
-        title="Youtube: @Riverwang"
+        title={<Typography variant="h6" gutterBottom>
+          Youtube: @Riverwang
+        </Typography>}
         onClick={() => window.open("https://www.youtube.com/channel/UCeunCRTBkjHWynMl4I4le_A", "_blank")}
       />
       <CardHeader
@@ -77,7 +85,9 @@ function App() {
             variant="rounded"
           />
         }
-        title="Twitter: @River___Wang"
+        title={<Typography variant="h6" gutterBottom>
+          Twitter: @River___Wang
+        </Typography>}
         onClick={() => window.open("https://twitter.com/River___Wang", "_blank")}
       />
       <br />
