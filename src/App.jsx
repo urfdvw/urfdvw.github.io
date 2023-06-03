@@ -1,12 +1,9 @@
-import { useState } from 'react'
-
 import Avatar from "@mui/material/Avatar";
 import Typography from "@mui/material/Typography";
 import CardHeader from "@mui/material/CardHeader";
 import Divider from '@mui/material/Divider';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
