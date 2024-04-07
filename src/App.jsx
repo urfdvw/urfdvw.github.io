@@ -97,7 +97,7 @@ function App() {
       </Typography>
       <p>
         If the short link (<a href='https://circuitpy.online'>https://circuitpy.online</a>) is not functioning on your network,
-        consider using the long link (<a href='https://urfdvw.github.io/CircuitPython-online-IDE/'>https://urfdvw.github.io/CircuitPython-online-IDE/</a>) instead.
+        consider using the long link (<a href='https://urfdvw.github.io/circuitpython-online-ide-2/'>https://urfdvw.github.io/circuitpython-online-ide-2/</a>) instead.
         The short link simply serves as a portal to the long link.
         If your firewall is blocking the short link,
         it is blocking the redirection service,
